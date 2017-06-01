@@ -1,0 +1,68 @@
+﻿@model ImageBoard.Models.User
+ 
+@{
+    ViewBag.Title = "Создание пользователя";
+}
+<head>
+     <link rel="stylesheet" href="../../Content/styles/style.css" />
+     <link rel="Stylesheet" href="../../Content/css/bootstrap.min.css" />
+</head>
+</body>
+    <div class="wripper">
+    <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    @*<div class="navbar-header navbar-left">
+                        <img src="../../Content/images/belyi-golub.jpg" alt="" style="border-radius: 50%; widht: 51px; height: 51px" />
+                    </div>*@
+                    <div class="navbar-header navbar-center">
+                        <h1>Создание нового пользователя</h1>
+                    </div>
+                </div>
+            </nav>
+        @using (Html.BeginForm()) {
+            @Html.ValidationSummary(true)
+ 
+            <fieldset>
+                <legend>Новый пользователь</legend>
+ 
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.Name)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.Name)
+                    @Html.ValidationMessageFor(model => model.Name)
+                </div>
+ 
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.Login)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.Login)
+                    @Html.ValidationMessageFor(model => model.Login)
+                </div>
+ 
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.Password)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.Password)
+                    @Html.ValidationMessageFor(model => model.Password)
+                </div>
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.RoleId)
+                </div>
+                <div class="editor-field">
+                    @Html.DropDownListFor(model => model.RoleId, ViewBag.Roles as SelectList)
+                    @Html.ValidationMessageFor(model => model.RoleId)
+                </div>
+ 
+                <p>
+                    <input type="submit" value="Добавить" />
+                </p>
+            </fieldset>
+        }
+     </div>
+ </body>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

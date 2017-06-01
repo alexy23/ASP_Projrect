@@ -1,0 +1,174 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #EEEEEE !important;
+    background: url(img/bg.png);
+}
+a{
+    color: #FF9900 !important;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+#photoflag
+{
+    position:absolute;
+    margin-left: 64%;
+    margin-bottom: 3%;
+}
+#formAuth
+{
+    margin-left: 10%;
+    width:80%;
+    !display: block;
+}
+#formSignup
+{
+    margin-left: 10%;
+    width:80%;
+    !display: none; 
+}
+hr{
+    clear: both !important;
+    border: none !important;
+    border-top: 1px solid #DDD !important;
+    height: 0 !important;
+    width: 98% !important;
+}
+
+#box_login
+{
+    margin-left: 10%;
+    height: 80%;
+    width: 80%;
+    text-align: center;
+}
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+    
+}
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+#box_user
+{
+   height: 350px;
+    width: 100%;
+    
+}
+#box_registration
+{
+    height: 500px;
+}
+#box_theme
+{
+    width: 100%;
+    min-height: 350px;
+}
+#clearblock
+{
+    padding-top: 5%;
+}
+.avatar
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;    
+}
+#boxOfLogin
+{
+    height: 196px;
+    width: 70%;
+    margin-left: 15%;
+    background: rgba(255, 251, 245, 0.7);
+    border: 2px solid #FF9800;
+	border-radius: 8px;
+}
+.Block
+{
+    font-family: cursive;
+    line-height: normal;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px #868686, inset 0px 0px 1px #525252;
+}
+#wripper
+{
+    min-height: 700px;
+}
+#foot
+{
+    width: 100%;
+    padding-bottom: 30px;
+    text-align:center;
+    !padding-bottom:10%;
+    bottom: 0;
+    !position: fixed;
+}
+
+.button{
+    text-decoration: "Регистрация"; 
+    text-align:center; 
+    padding:11px 32px; 
+    border:solid 1px #004F72; 
+    border-radius: 4px; 
+    font:10px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#E5FFFF; 
+    background-color:#3BA4C7; 
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  
+}.button:active{
+    padding:11px 32px; 
+    border:solid 1px #004F72; 
+    border-radius: 4px; 
+    font:10px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#E5FFFF; 
+    background-color:#3BA4C7;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+ }

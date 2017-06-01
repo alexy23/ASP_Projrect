@@ -1,0 +1,76 @@
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\ImageBoard.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\ImageBoard.pdb
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\Antlr3.Runtime.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\EntityFramework.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\Microsoft.Web.Infrastructure.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\Newtonsoft.Json.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.Formatting.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.WebRequest.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.Http.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.Http.WebHost.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.Mvc.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.Optimization.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.Providers.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.Razor.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.Deployment.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.Razor.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\WebGrease.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\EntityFramework.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\Newtonsoft.Json.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.Formatting.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.WebRequest.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.Http.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.Http.WebHost.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.Mvc.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.Razor.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.Deployment.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.Razor.xml
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\obj\Debug\ImageBoard.Migrations.FillDB.resources
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\obj\Debug\ImageBoard.dll
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\obj\Debug\ImageBoard.pdb
+C:\Documents and Settings\Admin\Рабочий стол\курсач\ImageBoard\ImageBoard\obj\Debug\ImageBoard.Migrations.wdwdwa.resources
+D:\скам\курсач\ImageBoard\ImageBoard\bin\ImageBoard.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\ImageBoard.pdb
+D:\скам\курсач\ImageBoard\ImageBoard\bin\Antlr3.Runtime.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\EntityFramework.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\Microsoft.Web.Infrastructure.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\Newtonsoft.Json.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.Formatting.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.WebRequest.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.Http.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.Http.WebHost.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.Mvc.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.Optimization.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.Providers.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.Razor.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.Deployment.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.Razor.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\WebGrease.dll
+D:\скам\курсач\ImageBoard\ImageBoard\bin\EntityFramework.xml
+D:\скам\курсач\ImageBoard\ImageBoard\bin\Newtonsoft.Json.xml
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.xml
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.Formatting.xml
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Net.Http.WebRequest.xml
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.Http.xml
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.Http.WebHost.xml
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.Mvc.xml
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.Razor.xml
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.xml
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.Deployment.xml
+D:\скам\курсач\ImageBoard\ImageBoard\bin\System.Web.WebPages.Razor.xml
+D:\скам\курсач\ImageBoard\ImageBoard\obj\Debug\ResolveAssemblyReference.cache
+D:\скам\курсач\ImageBoard\ImageBoard\obj\Debug\ImageBoard.Migrations.FillDB.resources
+D:\скам\курсач\ImageBoard\ImageBoard\obj\Debug\ImageBoard.Migrations.wdwdwa.resources
+D:\скам\курсач\ImageBoard\ImageBoard\obj\Debug\GenerateResource.read.1.tlog
+D:\скам\курсач\ImageBoard\ImageBoard\obj\Debug\GenerateResource.write.1.tlog
+D:\скам\курсач\ImageBoard\ImageBoard\obj\Debug\ImageBoard.dll
+D:\скам\курсач\ImageBoard\ImageBoard\obj\Debug\ImageBoard.pdb

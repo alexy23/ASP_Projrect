@@ -1,0 +1,127 @@
+﻿@model ImageBoard.Models.LogViewModel
+@{
+    ViewBag.Title = "My News";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>MyMess</title>
+        <meta name="viewport" content="width=device-width" />
+    </head>
+
+    <body>
+    @section Head{
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="../Account/Create">Регистрация</a>
+            </li>
+        </ul>
+    }
+    @section Infobox{
+    <div id="boxOfLogin">
+        <center>
+            @using (Html.BeginForm())
+            {
+            @Html.ValidationSummary(true)
+            <div id="container">
+                <div class="formblock">
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.UserName)
+                    </div>
+                    <div class="editor-field push" >
+                        @Html.EditorFor(model => model.UserName)
+                        @Html.ValidationMessageFor(model => model.UserName)
+                    </div>
+                </div>
+                <div class="formblock">
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Password)
+                    </div>
+                    <div class="editor-field push">
+                        @Html.EditorFor(model => model.Password)
+                        @Html.ValidationMessageFor(model => model.Password)
+                    </div>
+                </div>
+                <div class="formblock">
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.RememberMe)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.RememberMe)
+                        @Html.ValidationMessageFor(model => model.RememberMe)
+                    </div>
+                </div>
+                <div class="formblock">
+                    <p>
+                        <input type="submit" class="button" id="login" value="Войти" />
+                    </p>
+                </div>
+            </div>
+            }
+            </center>
+        </div>
+     }
+    @section Info{
+        <fieldset>
+        <legend><h1 style="color:color: rgba(0,83,115,1);">Мы Приветствуем Вас в социальной сети MyMes</h1></legend>
+        <p> Надеюсь вам будет уютно у нас и вы останетесь у нас </p>
+        <li><strong>Делитесь Информацией(Новостями, Впечатлениями, Мнением etc.)</strong></li>
+        <br />
+        <li><strong>Подписывайтесь и читайте любые новости которые оставляют пользователи Нашего сервиса ImageBoard</strong></li>
+        <br />
+
+        <li><strong>Общайтесь с пользователями при помощи личных сообщений</strong></li>
+        <br />
+        <li><strong>Мы Предоставляем качественный социальную сеть доступную с любого устройства</strong></li>
+        <br />                      
+        <li><strong>Постоянно дорабатывая сайт, мы добиваемся того что он будет стабильным и безопасным</strong></li>
+        </fieldset>
+    }
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @*<div id="header">
+                <img  style="border-radius: 50%;" src="../../Content/images/belyi-golub.jpg" class="main" alt=""/>
+                <input type="button" class="main" value="Главная" />
+		    </div>
+            <div style=" width:100%; height:1px; clear:both;">.</div>
+            <div class="infobox">
+			    <fieldset>
+                    <legend><p style="color:Aqua;">Мы Приветствуем Вас в социальной сети MyMes</p></legend>
+				    <p> Надеюсь вам будет уютно у нас и вы останетесь у нас </p>
+                    <li><strong>Делитесь Информацией(Новостями, Впечатлениями, Мнением etc.)</strong></li>
+                    <br />
+				    <li><strong>Подписывайтесь и читайте любые новости которые оставляют пользователи Нашего сервиса ImageBoard</strong></li>
+                    <br />
+
+                    <li><strong>Общайтесь с пользователями при помощи личных сообщений</strong></li>
+                    <br />
+                    <li><strong>Мы Предоставляем качественный социальную сеть доступную с любого устройства</strong></li>
+                    <br />                      
+                    <li><strong>Постоянно дорабатывая сайт, мы добиваемся того что он будет стабильным и безопасным</strong></li>
+		        </fieldset>	            
+			  </div>
+              <div class="reg">
+              </div>
+              <div style=" width:100%; height:1px; clear:both;">.</div>
+
+              <div id="footer">
+                    <center><input type="button" id="main" value="О нас"/></center>
+              </div> *@

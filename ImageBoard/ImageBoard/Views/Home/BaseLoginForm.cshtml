@@ -1,0 +1,60 @@
+﻿@model ImageBoard.ViewModel.SignupLoginModel
+    <div >
+        <input type="button" class="btn btn-warning" value="Зарегистрироваться" onclick="dawn(this)"/>
+    </div>
+    <div id="formAuth">
+    @using (var signupForm = Html.BeginForm("Authentification", "Account", new { role = "form" }))
+    {
+    <fieldset>
+    <legend>Вход на Форум</legend>
+        
+            @Html.AntiForgeryToken()
+            <center>
+                @Html.LabelFor(m => m.Login.UserName)
+                @Html.TextBoxFor(m => m.Login.UserName, new { @class = "form-control input-sm" })
+            
+                @Html.LabelFor(m => m.Login.Password)
+                @Html.TextBoxFor(m => m.Login.Password, new { @class = "form-control input-sm" })
+            
+            <br />
+            <p>
+                <input type="submit" class="button" value="Войти" />
+            </p>
+            </center>
+    </fieldset>
+    }
+    </div>
+    <div id="formSignup" style="display: none">
+    @using (var signupForm = Html.BeginForm("Authentification", "Account", new { role = "form" }))
+    {
+    <fieldset>
+    <legend>Регистрация</legend>
+        
+            @Html.AntiForgeryToken()
+            <center>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Signup.UserName)
+                @Html.TextBoxFor(m => m.Signup.UserName, new { @class = "form-control input-sm" })
+            </div>
+            
+            <div class="form-group">
+                @Html.LabelFor(m => m.Signup.Password)
+                @Html.TextBoxFor(m => m.Signup.Password, new { @class = "form-control input-sm" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Signup.Password2)
+                @Html.TextBoxFor(m => m.Signup.Password2, new { @class = "form-control input-sm" })
+            </div>
+           
+                @Html.LabelFor(m => m.Signup.RememberMe)
+                @Html.CheckBoxFor(m => m.Signup.RememberMe, new { @class = "checkbox input-sm" })
+            
+            <br />
+            <p>
+                <input type="submit" class="button" value="Войти" />
+            </p>
+            </center>
+    </fieldset>
+    }
+    </div>
