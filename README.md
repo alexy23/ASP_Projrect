@@ -1,2 +1,1 @@
-# ASP_Projrect
-# ASP_Projrect
+This Prioject ASP.NET MVC for view 
